@@ -10,5 +10,6 @@ You can read the white paper HERE.
 - Live chat customer engagement feature
 - Responsive user interfaces using [theme-ui](https://theme-ui.com/)
 
-
+## Deployment
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c4488bd0-7804-49b6-8211-14769e337efa/deploy-status)](https://app.netlify.com/sites/modishx/deploys)
 

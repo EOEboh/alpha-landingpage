@@ -8,6 +8,8 @@ import { useEffect } from 'react';
 import 'rc-drawer/assets/index.css';
 import 'assets/css/react-slick.css';
 
+import '../styles.css'
+
 
 // animate on scroll
 import 'aos/dist/aos.css';

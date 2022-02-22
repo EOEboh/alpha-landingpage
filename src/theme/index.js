@@ -276,11 +276,6 @@ export default {
       fontFamily: "body",
       lineHeight: "body",
       fontWeight: "body",
-@media screen and (max-width: 320px) {
-  #__next {
-    display: flex
-  }
-}
     },
 
     // h1-h6 Heading styles

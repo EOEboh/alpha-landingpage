@@ -1,6 +1,7 @@
 /** Uncomment the below codeblock if you want to add google analytics for more info please visit our docs analytics section */
 /** 
 
+import Head from 'next/head'
 import Router from 'next/router';
 import { initGA, logPageView } from 'analytics';
 */
@@ -23,5 +24,10 @@ export default function CustomApp({ Component, pageProps }) {
    }, []);
    */
 
-  return <Component {...pageProps} />;
+  return (
+   <>
+  <Head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</Head>
+ <Component {...pageProps} />);
 }
